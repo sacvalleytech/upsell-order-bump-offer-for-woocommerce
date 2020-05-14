@@ -867,6 +867,11 @@ function mwb_ubo_lite_retrieve_bump_location_details( $key = '_after_payment_gat
 			'priority' => 21,
 			'name'     => esc_html__( 'Before Place order button', 'upsell-order-bump-offer-for-woocommerce' ),
 		),
+		'_after_place_order_button' => array(
+			'hook'     => 'woocommerce_review_order_after_submit',
+			'priority' => 10,
+			'name'     => esc_html__( 'After Place order button', 'upsell-order-bump-offer-for-woocommerce' ),
+		),
 	);
 
 	return $location_details[ $key ];

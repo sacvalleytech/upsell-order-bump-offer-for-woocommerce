@@ -112,6 +112,7 @@ Yes, you can change the location of the Order Bump Offer on the Checkout page. H
 * Before Payment Gateways
 * After Payment Gateways
 * Before Place Order Button
+* After Place Order Button
 
 ### If the offer product is being added in the cart then isn't that possible that customer will add more than 1 quantity ? This could lead us to loss in revenue as well as stock. How could I prevent this ?
 

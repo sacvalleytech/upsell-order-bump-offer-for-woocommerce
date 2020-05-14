@@ -234,6 +234,7 @@ if ( isset( $_POST['mwb_upsell_bump_common_settings_save'] ) ) {
 						'_before_payment_gateways' => esc_html__( 'Before Payment Gateways', 'upsell-order-bump-offer-for-woocommerce' ),
 						'_after_payment_gateways' => esc_html__( 'After Payment Gateways', 'upsell-order-bump-offer-for-woocommerce' ),
 						'_before_place_order_button' => esc_html__( 'Before Place Order Button', 'upsell-order-bump-offer-for-woocommerce' ),
+						'_after_place_order_button' => esc_html__( 'After Place Order Button', 'upsell-order-bump-offer-for-woocommerce' ),
 					);
 
 					?>
