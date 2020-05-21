@@ -145,7 +145,7 @@ class Upsell_Order_Bump_Offer_For_Woocommerce_Public {
 		 */
 		if( function_exists( 'is_checkout' ) && is_checkout() ) {
 
-			require_once plugin_dir_path( __FILE__ ) . '/partials/upsell-order-bump-offer-for-woocommerce-public-display.php';
+			require plugin_dir_path( __FILE__ ) . '/partials/upsell-order-bump-offer-for-woocommerce-public-display.php';
 		}
 	}
 
